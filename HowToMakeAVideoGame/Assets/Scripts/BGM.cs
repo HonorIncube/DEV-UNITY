@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.Audio;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -39,11 +36,8 @@ public class BGM : MonoBehaviour
             case "Level01":
                 clip = Music[0];
                 break;
-            case "Level02":
-                clip = Music[1];
-                break;
             default:
-                clip = Music[2];
+                clip = Music[0];
                 break;
         }
 
